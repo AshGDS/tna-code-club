@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script src="fizzbuzz.js"></script>
+<script type="text/javascript">
+    var a = new fizzbuzz(15);
+    console.log(a.fizz_or_buzz());
+    let s= "";
+    for(let i =0; i < 100; i++){
+        if(i % 3 != 0 && i % 5 != 0) {
+            s = s + `{int:${i},str:${i}},\n`;
+        }
+    }
+    console.log(s);
+</script>
+</html>
